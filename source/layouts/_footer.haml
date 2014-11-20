@@ -1,14 +1,21 @@
 .container-fluid.footer
   .container
-    .footer-nav.col-md-6.col-md-offset-4
-      %ul
-        %li
-          = link_to "Home", "/"
-        %li
-          = link_to "Web", "/web"
-        %li
-          = link_to "Music", "/music"
-        %li
-          = link_to "Blog", "/blog"
-        %li
-          = link_to "Contact", "/contact"
+    .row
+      .footer-nav
+        %ul
+          %li
+            = link_to "Home", "/"
+          %li
+            = link_to "Web", "/web"
+          %li
+            = link_to "Music", "/music"
+          %li
+            = link_to "Blog", "/blog"
+          %li
+            = link_to "Contact", "/contact"
+
+    .row
+      .social-menu-footer
+        = link_to "", "https://github.com/bluneon", class: "fa fa-github-square", target: "_blank"
+        = link_to "", "https://twitter.com/BluNeon", class: "fa fa-twitter-square", target: "_blank"
+        = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram", target: "_blank"

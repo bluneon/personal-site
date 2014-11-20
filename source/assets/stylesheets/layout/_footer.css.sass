@@ -3,11 +3,14 @@
   color: white
 
 .footer-nav
+  text-align: center
+  padding: 10px 0
+
   ul 
     li 
       list-style: none
       display: inline
-      margin-right: 10px
+      padding: 10px 5px
 
       a
         color: white
@@ -17,5 +20,18 @@
         &:hover
           color: $brand-primary
 
-    li:last-child
-      margin-right: 0
+.social-menu-footer
+  padding: 0 0 20px 0
+  text-align: center
+
+  .fa
+    color: lighten($brand-secondary, 20%)
+    font-size: 40px
+    margin-right: 10px
+    text-decoration: none
+
+    &:hover
+      color: white
+
+  .fa:last-child
+    margin-right: 0
