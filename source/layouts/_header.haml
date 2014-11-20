@@ -1,4 +1,20 @@
 .header
-	.container.padless
-		%h1
-			Header
+  .container-fluid
+    .navigation
+      .container
+        .logo.col-md-2.padless
+          = link_to "/" do
+            %span
+              = image_tag "http://loremicon.com/i/flat/128/computer"
+        .col-md-6.col-md-offset-4
+          %ul
+            %li 
+              = link_to "Home", "/"
+            %li
+              = link_to "Web", "/web"
+            %li
+              = link_to "Music", "/music"
+            %li
+              = link_to "Blog", "/blog"
+            %li
+              = link_to "Contact", "/contact"
