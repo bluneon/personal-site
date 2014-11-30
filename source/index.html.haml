@@ -1,14 +1,14 @@
-.container-fluid
+.container-fluid.bg-home
   .container
     .home-hero
       .row
-        .col-md-6.text-primary.padless
-          %h2 Artist & Thinker
-          %h4 Hello, I'm Brian Shimkus, a front-end web developer at kohactive.
-          %h4 When not developing websites, I enjoy playing guitar, fitness, keeping up my saltwater aquarium, and am also a Chicago Cubs season ticket holder.
+        .col-md-6.padless
+          %h2.text-primary Artist & Thinker
+          %h4.text-secondary Hello, I'm Brian Shimkus, a front-end web developer at kohactive.
+          %h4.text-secondary When not developing websites, I enjoy playing guitar, fitness, keeping up my saltwater aquarium, and am also a Chicago Cubs season ticket holder.
 
       .row.home-hero-social-group
-        %h4.text-primary Feel free to get in touch with me:
+        %h4.text-secondary Feel free to get in touch with me:
         = link_to "", "https://github.com/bluneon", class: "fa fa-github-square home-hero-social", target: "_blank"
         = link_to "", "https://twitter.com/BluNeon", class: "fa fa-twitter-square home-hero-social", target: "_blank"
         = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram home-hero-social", target: "_blank"
