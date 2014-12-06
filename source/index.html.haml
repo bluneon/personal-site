@@ -1,4 +1,4 @@
-.container-fluid.bg-home
+.container-fluid.bg-home#top
   .container
     .home-hero
       %h1.text-white Brian Shimkus
@@ -12,9 +12,25 @@
       /   = link_to "", "https://twitter.com/bluneon", class: "fa fa-twitter-square home-hero-social", target: "_blank"
       /   = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram home-hero-social", target: "_blank"
       .home-hero-button
-        = link_to "View Work", "#"
+        = link_to "View Work", "#work", class: "scroll"
 
-.container-fluid
+.container-fluid#work
   .container
     .home-work
       %h1 Here is my work
+
+:javascript
+  $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+  });
