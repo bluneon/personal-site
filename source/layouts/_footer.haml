@@ -1,2 +1,16 @@
-.container-fluid.footer.footer-top-link
-  = link_to "Back To Top", "#top"
+.container-fluid
+  %section
+    .container
+      .social-section
+        %h3.text-secondary.text-center.font-regular
+          Feel free to connect with me:
+          .social-section-icons
+            = link_to "", "tel:708-712-3474", class: "fa fa-phone", target: "_blank"
+            = link_to "", "mailto:brianshimkus1@gmail.com", class: "fa fa-envelope"
+            = link_to "", "https://linkedin.com/in/bluneon", class: "fa fa-linkedin", target: "_blank"
+            = link_to "", "https://github.com/brianshimkus", class: "fa fa-github-alt", target: "_blank"
+            = link_to "", "https://twitter.com/bluneon", class: "fa fa-twitter", target: "_blank"
+            = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram", target: "_blank"
+  .footer
+    .footer-top-link
+      = link_to "Back To Top", "#top"
