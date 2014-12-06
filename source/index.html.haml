@@ -1,16 +1,20 @@
 .container-fluid.bg-home
   .container
     .home-hero
-      .row
-        .col-md-7.padless
-          %h2.text-primary.font-regular Artist & Thinker
-          %h3.text-secondary.font-regular Hello, I'm a Web Developer and Designer from Chicago, IL. I'm passionate about the art of creating beautiful pixels and making them interactive.
+      %h1.text-white Brian Shimkus
+      %h2.text-white.font-thin Web Designer & Developer
+      / %h3.text-secondary.font-regular Hello, I'm a Web Developer and Designer from Chicago, IL. I'm passionate about the art of creating beautiful pixels and making them interactive.
 
-          .row.home-hero-social-group
-            %h3.text-secondary.font-regular Feel free to view my work or get in touch with me:
-            = link_to "", "https://linkedin.com/in/bluneon", class: "fa fa-linkedin-square home-hero-social", target: "_blank"
-            = link_to "", "https://github.com/brianshimkus", class: "fa fa-github-square home-hero-social", target: "_blank"
-            = link_to "", "https://twitter.com/bluneon", class: "fa fa-twitter-square home-hero-social", target: "_blank"
-            = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram home-hero-social", target: "_blank"
-        .col-md-5.padless
-          = image_tag "headshot.jpg", class: "home-image"
+      / .row.home-hero-social-group
+      /   %h3.text-secondary.font-regular Feel free to view my work or get in touch with me:
+      /   = link_to "", "https://linkedin.com/in/bluneon", class: "fa fa-linkedin-square home-hero-social", target: "_blank"
+      /   = link_to "", "https://github.com/brianshimkus", class: "fa fa-github-square home-hero-social", target: "_blank"
+      /   = link_to "", "https://twitter.com/bluneon", class: "fa fa-twitter-square home-hero-social", target: "_blank"
+      /   = link_to "", "http://instagram.com/bluneon", class: "fa fa-instagram home-hero-social", target: "_blank"
+      .home-hero-button
+        = link_to "View Work", "#"
+
+.container-fluid
+  .container
+    .home-work
+      %h1 Here is my work
