@@ -11,4 +11,6 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
+
+  $(".home-work").velocity("transition.slideLeftIn", { stagger: 250 });
 });

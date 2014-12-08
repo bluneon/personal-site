@@ -11,13 +11,13 @@
 
 .container-fluid.bg-secondary.passion#passion
   .container
-    .intro
+    .intro.col-sm-10.col-sm-centered.col-md-12
       %h3.text-white.font-thin.text-center I'm passionate about the art of creating beautiful pixels and making them interactive.
 
 %section.container-fluid.bg-project1
   .container
     .home-work
-      .col-md-6.text-left.text-white
+      .col-md-6.text-left.text-white.col-xs-12
         %h2 Project One Name
         %h3 Worked on:
         %ul.project-details 
@@ -25,14 +25,14 @@
         .button
           = link_to "View Site", "http://google.com", target: "_blank", class: "project1"
       .col-md-6
-        = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc"
+        = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc", class: "full-image-width"
 
 %section.container-fluid.bg-project2
   .container
     .home-work
       .col-md-6
-        = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc"
-      .col-md-6.text-right.text-white
+        = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc", class: "full-image-width"
+      .col-md-6.text-left.text-white.col-xs-12
         %h2 Project Two Name
         %h3 Worked on:
         %ul.project-details 
