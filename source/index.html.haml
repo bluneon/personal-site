@@ -14,7 +14,46 @@
     .intro.col-sm-10.col-sm-centered.col-md-12
       %h3.text-white.font-thin.text-center I'm passionate about the art of creating beautiful pixels and making them interactive.
 
-%section.container-fluid.bg-project1
+%section.container-fluid.bg-aon
+  .container
+    .home-work
+      .col-md-6.text-left.text-white.col-xs-12
+        %h2 Aon Manchester United
+        %h3 Worked on:
+        %ul.project-details 
+          %li Web Development
+        .button
+          = link_to "View Site", "http://google.com", target: "_blank", class: "aon"
+      .col-md-6
+        = image_tag "aon.png", class: "full-image-width"
+
+%section.container-fluid.bg-davita
+  .container
+    .home-work
+      .col-md-6
+        = image_tag "davita.png", class: "full-image-width"
+      .col-md-6.text-left.text-white.col-xs-12
+        %h2 Davita Clinical Research
+        %h3 Worked on:
+        %ul.project-details 
+          %li Web Development
+        .button
+          = link_to "View Site", "http://google.com", target: "_blank", class: "davita"
+
+%section.container-fluid.bg-vitality
+  .container
+    .home-work
+      .col-md-6.text-left.text-white.col-xs-12
+        %h2 The Vitality Group
+        %h3 Worked on:
+        %ul.project-details 
+          %li Web Development
+        .button
+          = link_to "View Site", "http://google.com", target: "_blank", class: "vitality"
+      .col-md-6
+        = image_tag "vitality.png", class: "full-image-width"
+
+%section.container-fluid.bg-project1.mobile-project
   .container
     .home-work
       .col-md-6.text-left.text-white.col-xs-12
@@ -26,16 +65,3 @@
           = link_to "View Site", "http://google.com", target: "_blank", class: "project1"
       .col-md-6
         = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc", class: "full-image-width"
-
-%section.container-fluid.bg-project2
-  .container
-    .home-work
-      .col-md-6
-        = image_tag "http://placehold.it/500x350/d8d8d8/bcbcbc", class: "full-image-width"
-      .col-md-6.text-left.text-white.col-xs-12
-        %h2 Project Two Name
-        %h3 Worked on:
-        %ul.project-details 
-          %li Web Development
-        .button
-          = link_to "View Site", "http://google.com", target: "_blank", class: "project2"
