@@ -1,4 +1,3 @@
-personal-site
-=============
+# [My Personal Site](http://brianshimkus.com)
 
-My personal site
+This is my personal site developed using [Middleman](http://middlemanapp.com/).  
