@@ -14,6 +14,19 @@
     .intro.col-sm-10.col-sm-centered.col-md-12
       %h3.text-white.font-thin.text-center The art of creating beautiful pixels and making them interactive is my passion.
 
+%section.container-fluid.bg-hoptacular-blue.davita-project
+  .container
+    .home-work
+      .col-md-6.col-sm-6
+        = image_tag "http://placehold.it/520x350", class: "full-image-width"
+      .col-md-6.text-left.text-white.col-xs-12.col-sm-6
+        %h2 Hoptacular
+        %h4.text-uppercase Role in project:
+        %ul.project-details 
+          %h4
+            %li Brand development
+            %li Mobile UI/UX
+
 %section.container-fluid.bg-aon.aon-project
   .container
     .home-work
@@ -34,11 +47,23 @@
       .col-md-6.col-sm-6
         = image_tag "aon.png", class: "full-image-width"
 
-%section.container-fluid.bg-davita.davita-project
+%section.container-fluid.bg-caribou.davita-project
   .container
     .home-work
       .col-md-6.col-sm-6
-        = image_tag "davita.png", class: "full-image-width"
+        = image_tag "http://placehold.it/520x350", class: "full-image-width"
+      .col-md-6.text-left.text-white.col-xs-12.col-sm-6
+        %h2 Caribou
+        %h4.text-uppercase Role in project:
+        %ul.project-details 
+          %h4
+            %li Menu layout
+            %li Color coordination
+            %li Typography
+
+%section.container-fluid.bg-davita.davita-project
+  .container
+    .home-work
       .col-md-6.text-left.text-white.col-xs-12.col-sm-6
         %h2 Davita Clinical Research
         %h4.text-uppercase Role in project:
@@ -51,10 +76,14 @@
             %li Added download link with modal to download media
         .button
           = link_to "View Site", "http://www.davitaclinicalresearch.com/", target: "_blank", class: "davita"
+      .col-md-6.col-sm-6
+        = image_tag "davita.png", class: "full-image-width"
 
 %section.container-fluid.bg-vitality.vitality-project
   .container
     .home-work
+      .col-md-6.col-sm-6
+        = image_tag "vitality.png", class: "full-image-width"
       .col-md-6.text-left.text-white.col-xs-12.col-sm-6
         %h2 The Vitality Group
         %h4.text-uppercase Role in project:
@@ -66,8 +95,6 @@
             %li Added download link with modal to download media
         .button
           = link_to "View Site", "http://www.thevitalitygroup.com/", target: "_blank", class: "vitality"
-      .col-md-6.col-sm-6
-        = image_tag "vitality.png", class: "full-image-width"
 
 %section.container-fluid.bg-aon.mobile-project
   .container
