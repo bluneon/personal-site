@@ -8,7 +8,7 @@ $(document).ready(function(){
 
   $('.slider-container .goToSlide .go').each(function(i) {
     $(this).bind('click', function() {
-      $('.iosslider').iosSlider('goToSlide', i + 1);
+      $('.iosslider').iosSlider('goToSlide', i+1);
     });
   });
 });
