@@ -5,4 +5,10 @@ $(document).ready(function(){
     keyboardControls: true,
     desktopClickDrag: true
   });
+
+  $('.slider-container .goToSlide .go').each(function(i) {
+    $(this).bind('click', function() {
+      $('.iosslider').iosSlider('goToSlide', i + 1);
+    });
+  });
 });

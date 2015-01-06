@@ -18,14 +18,22 @@
   .container
     .home-work
       .col-md-6.col-sm-6
-        .iosslider
-          .slider
-            .slide 
-              = image_tag "hoptacular/app_1.jpg", class: "full-image-width"
-            .slide 
-              = image_tag "hoptacular/app_2.jpg", class: "full-image-width"
-            .slide 
-              = image_tag "hoptacular/app_3.jpg", class: "full-image-width"
+        .slider-container
+          .iosslider
+            .slider
+              .slide
+                = image_tag "hoptacular/app_1.jpg", class: "full-image-width"
+              .slide
+                = image_tag "hoptacular/app_2.jpg", class: "full-image-width"
+              .slide
+                = image_tag "hoptacular/app_3.jpg", class: "full-image-width"
+              .slide
+                = image_tag "hoptacular/app_4.jpg", class: "full-image-width"
+          .goToSlide
+            .go
+            .go
+            .go
+            .go
       .col-md-6.text-left.text-white.col-xs-12.col-sm-6
         %h2 Hoptacular
         %h4.text-uppercase Role in project:
@@ -58,14 +66,19 @@
   .container
     .home-work
       .col-md-6.col-sm-6
-        .iosslider
-          .slider
-            .slide 
-              = image_tag "caribou/menu_1.jpg", class: "full-image-width"
-            .slide 
-              = image_tag "caribou/menu_2.jpg", class: "full-image-width"
-            .slide 
-              = image_tag "caribou/menu_3.jpg", class: "full-image-width"
+        .slider-container
+          .iosslider
+            .slider
+              .slide
+                = image_tag "caribou/menu_1.jpg", class: "full-image-width"
+              .slide
+                = image_tag "caribou/menu_2.jpg", class: "full-image-width"
+              .slide
+                = image_tag "caribou/menu_3.jpg", class: "full-image-width"
+          .goToSlide
+            .go
+            .go
+            .go
       .col-md-6.text-left.text-white.col-xs-12.col-sm-6
         %h2 Caribou
         %h4.text-uppercase Role in project:
@@ -109,6 +122,35 @@
             %li Added download link with modal to download media
         .button
           = link_to "View Site", "http://www.thevitalitygroup.com/", target: "_blank", class: "vitality"
+
+%section.container-fluid.bg-hoptacular-blue.mobile-project
+  .container
+    .home-work
+      .col-md-10.text-white
+        %h2 Hoptacular
+        .slider-container
+          .iosslider
+            .slider
+              .slide
+                = image_tag "hoptacular/app_1.jpg", class: "full-image-width mobile-project-image"
+              .slide
+                = image_tag "hoptacular/app_2.jpg", class: "full-image-width mobile-project-image"
+              .slide
+                = image_tag "hoptacular/app_3.jpg", class: "full-image-width mobile-project-image"
+              .slide
+                = image_tag "hoptacular/app_4.jpg", class: "full-image-width mobile-project-image"
+          .goToSlide
+            .go
+            .go
+            .go
+            .go
+      .col-md-6.text-left.text-white.col-xs-12.col-sm-6
+        
+        %h4.text-uppercase Role in project:
+        %ul.project-details 
+          %h4
+            %li Brand development
+            %li Mobile UI/UX design
 
 %section.container-fluid.bg-aon.mobile-project
   .container
