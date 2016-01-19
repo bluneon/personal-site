@@ -3,12 +3,12 @@ ul.project-details
 	margin-top: 10px
 	padding-left: 0
 
-	li 
+	li
 		list-style: none
 		margin: 4px 0
 
 	h4
-		li:before 
+		li:before
 			content: "•"
 			font-size: 12px
 			padding-right: 4px
@@ -17,14 +17,21 @@ ul.project-details
 	padding: 20px 0
 
 .aon
-	a 
+	a
 		@extend button
 		color: lighten($aon, 10%)
 	&:hover
 		color: lighten($aon, 10%)
 
+.cbln
+	a
+		@extend button
+		color: lighten($cbln, 10%)
+	&:hover
+		color: lighten($cbln, 10%)
+
 .davita
-	a 
+	a
 		@extend button
 		color: lighten($davita, 10%)
 	&:hover
@@ -34,11 +41,18 @@ ul.project-details
 	display: none
 
 .vitality
-	a 
+	a
 		@extend button
 		color: lighten($vitality, 10%)
 	&:hover
 		color: lighten($vitality, 10%)
+
+.wolves
+	a
+		@extend button
+		color: lighten($wolves, 10%)
+	&:hover
+		color: lighten($wolves, 10%)
 
 .mobile-project
 	display: none
