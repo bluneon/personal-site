@@ -14,6 +14,23 @@
     .intro.col-sm-10.col-sm-centered.col-md-12
       %h3.text-white.font-thin.text-center The art of making pixels come to life is my passion.
 
+%section.container-fluid.bg-todo
+  .container
+    .home-work
+      .col-md-6.col-sm-6
+        = image_tag "todo.jpg", class: "full-image-width round"
+
+      .col-md-6.text-left.text-white.col-xs-12.col-sm-6
+        %h2 Todo app built with AngularJS
+        %h4.text-uppercase Role in project:
+        %ul.project-details
+          %h4
+            %li Todo app built from scratch
+            %li Execution of UI/UX
+            %li Implementation of AngularJS
+        .button
+          = link_to "Try it out", "http://brianshimkus.com/todo", target: "_blank", class: "todo"
+
 %section.container-fluid.bg-aon
   .container
     .home-work
@@ -46,6 +63,8 @@
         %ul.project-details
           %h4
             %li Worked with custom fields in the wordpress back-end
+            %li Set up and updated galleries throughout the site
+            %li Implemented social media widgets
         .button
           = link_to "View Site", "http://www.chicagowolves.com/", target: "_blank", class: "wolves"
 

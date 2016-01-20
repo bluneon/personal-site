@@ -40,6 +40,13 @@ ul.project-details
 .mobile-project
 	display: none
 
+.todo
+	a
+		@extend button
+		color: lighten($todo, 10%)
+	&:hover
+		color: lighten($todo, 10%)
+
 .vitality
 	a
 		@extend button
